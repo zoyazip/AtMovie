@@ -10,7 +10,7 @@ const navigation = [
 const Navigation = () => {
     return (
         <>
-            <div className=" fixed flex justify-between items-center w-screen bg-black p-4 md:px-32 md:py-4 xl:px-64 xl:py-4">
+            <div className="z-50 fixed flex justify-between items-center w-screen bg-black/99 px-4 py-4 md:px-12">
                 <LogoNavigation />
                 <div className='space-x-6'>
                     <NavigationLink href='#' target={LinkTarget.self}>How to</NavigationLink>
