@@ -1,7 +1,7 @@
 import { Role } from './ui/role'
 
 interface RoleListProps {
-    roles: IRole[]
+    roles: IRoleSimple[]
 }
 
 export const RoleList = ({roles}: RoleListProps) => {
@@ -10,7 +10,7 @@ export const RoleList = ({roles}: RoleListProps) => {
             <div className="flex flex-wrap">
                 {roles.map((role) => (
                     <>
-                        <div key={role.id} className="text-sm">
+                        <div key={role.roleId} className="text-sm">
                             <Role name={role.name} direction={"flex-col"} color={role.color}/>
                         </div>
                     </>

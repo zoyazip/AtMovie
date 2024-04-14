@@ -47,12 +47,17 @@ const ccPlaceholder: IRole[] = [
 
     const getUniqueRoles = (roles: IRole[]) => {
         const roleIdSet = new Set<number>()
-        const uniqueRoles: IRole[] = []
+        const uniqueRoles: IRoleSimple[] = []
 
         for (const role of roles) {
             if (!roleIdSet.has(role.roleId)) {
                 roleIdSet.add(role.roleId)
-                uniqueRoles.push(role)
+                const uniqueRole = {
+                    name: role.name,
+                    color: role.color,
+                    roleId: role.roleId
+                }
+                uniqueRoles.push(uniqueRole)
             }
         }
         return uniqueRoles
