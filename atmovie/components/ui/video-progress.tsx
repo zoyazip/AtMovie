@@ -57,7 +57,7 @@ export const VideoProgress = ({progress, scrub}: VideoProgressProps) => {
             {
               replicas.map((replica, id) => {
                 return (
-                  <div key={id} className={`progress h-2 ${replica.margin} ${replica.width} absolute top-[44%] rounded-full ${replica.color} ${replicaCheck(replica)}`}></div>
+                  <div key={id} className={`progress h-2 ${replica.margin} ${replica.width} absolute top-[44%] rounded-full pointer-events-none ${replica.color} ${replicaCheck(replica)}`}></div>
                 )
               })
             }
