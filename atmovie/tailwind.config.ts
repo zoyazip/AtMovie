@@ -18,7 +18,15 @@ const config = {
       },
     },
     extend: {
+      zIndex: {
+        '100': '100'
+      },
       colors: {
+        userRed: "#FF5C5C",
+        userBlue: "#4A7CFF",
+        userYellow: "#FFD600",
+        userGreen: "#A7FE50",
+        mainGreen: "#A7FE50",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
