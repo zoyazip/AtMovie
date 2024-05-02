@@ -22,11 +22,22 @@ const config = {
         '100': '100'
       },
       colors: {
-        userRed: "#FF5C5C",
-        userBlue: "#4A7CFF",
-        userYellow: "#FFD600",
-        userGreen: "#A7FE50",
-        mainGreen: "#A7FE50",
+        user: {
+          red: "#FF5C5C",
+          blue: "#4A7CFF",
+          yellow: "#FFD600",
+          green: "#A7FE50",
+          orange: "#FFB443",
+          cyan: "#57ECE3",
+          violet: "#7749FA",
+          pink: "#FF71CF",
+          lightblue: "#4BC9FF",
+          brown: "#966823",
+          darkblue: "#2734AD"
+        },
+        main: {
+          green: "#A7FE50"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
