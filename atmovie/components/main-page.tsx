@@ -9,39 +9,116 @@ import { Video } from './ui/video'
 
 const ccPlaceholder: IRole[] = [
         {
-            "id": 0,
-            "roleId": 1,
-            "name": "Kuzya",
-            "color": "#FF5C5C",
-            "text": "Lorem ipsum dolor sit amet consectetur. Sed semper nunc in mattis urna aliquam. Donec sed suspendisse sed pharetra ut lectus nunc vel sollicitudin. Sed varius nulla urna lectus tellus condimentum vehicula pellentesque pulvinar. Natoque sed purus sagittis at vestibulum facilisi nisl."
+            id: 0,
+            roleId: 1,
+            name: "Jules",
+            colorName: "user-red",
+            color: "#FF5C5C",
+            text: "The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men. And I will strike down upon thee with great vengeance and furious anger, those who attempt to poison and destroy my brothers."
         },
         {
-            "id": 1,
-            "roleId": 2,
-            "name": "Maria",
-            "color": "#4A7CFF",
-            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            id: 1,
+            roleId: 2,
+            name: "Vincent",
+            colorName: "user-blue",
+            color: "#4A7CFF",
+            text: "You know what they call a quarter pounder with cheese in Paris?"
         },
         {
-            "id": 2,
-            "roleId": 3,
-            "name": "Adolf",
-            "color": "#FFD600",
-            "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
+            id: 2,
+            roleId: 1,
+            name: "Jules",
+            colorName: "user-red",
+            color: "#FF5C5C",
+            text: "What do they call it?"
         },
         {
-            "id": 3,
-            "roleId": 4,
-            "name": "Lucy",
-            "color": "#A7FE50",
-            "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+            id: 3,
+            roleId: 2,
+            name: "Vincent",
+            colorName: "user-blue",
+            color: "#4A7CFF",
+            text: "Royale with cheese."
         },
         {
-            "id": 4,
-            "roleId": 3,
-            "name": "Adolf",
-            "color": "#FFD600",
-            "text": "Et harum quidem rerum facilis est et expedita distinctio."
+            id: 4,
+            roleId: 1,
+            name: "Jules",
+            colorName: "user-red",
+            color: "#FF5C5C",
+            text: "Royale with cheese."
+        },
+        {
+            id: 5,
+            roleId: 3,
+            name: "Winston",
+            colorName: "user-yellow",
+            color: "#FFD600",
+            text: "You got a corpse in a car, minus a head in a garage. Take me to it."
+        },
+        {
+            id: 6,
+            roleId: 4,
+            name: "Marsellus",
+            colorName: "user-green",
+            color: "#A7FE50",
+            text: "Mother."
+        },
+        {
+            id: 7,
+            roleId: 5,
+            name: "Fabienne",
+            colorName: "user-pink",
+            color: "#FF71CF",
+            text: "Who's Zed?"
+        },
+        {
+            id: 8,
+            roleId: 6,
+            name: "Butch",
+            colorName: "user-orange",
+            color: "#FFB443",
+            text: "Zed's dead, baby. Get in. Zed's dead."
+        },
+        {
+            id: 9,
+            roleId: 7,
+            name: "Honey",
+            colorName: "user-violet",
+            color: "#7749FA",
+            text: "I love you, pumpkin."
+        },
+        {
+            id: 10,
+            roleId: 8,
+            name: "Lance",
+            colorName: "user-cyan",
+            color: "#57ECE3",
+            text: "I love you, Honey Bunny. Everybody be cool. This is a robbery."
+        },
+        {
+            id: 11,
+            roleId: 1,
+            name: "Jules",
+            colorName: "user-red",
+            color: "#FF5C5C",
+            text: "What's Fonsy like?"
+        },
+        {
+            id: 12,
+            roleId: 7,
+            name: "Honey",
+            colorName: "user-violet",
+            color: "#7749FA",
+            text: "Cool."
+        },
+        {
+            id: 11,
+            roleId: 1,
+            name: "Jules",
+            colorName: "user-red",
+            color: "#FF5C5C",
+            text: "Correctomundo. And that's what we're going to be. We're going to be cool."
         },
     ]
 

@@ -1,4 +1,3 @@
-import { Role } from './ui/role'
 import { ScrollableArea } from './ui/scrollable-area'
 
 interface CCBlockProps {
