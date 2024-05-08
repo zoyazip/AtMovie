@@ -3,10 +3,6 @@ import * as React from "react"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Role } from './role'
 
-const tags = Array.from({ length: 50 }).map(
-  (_, i, a) => `v1.2.0-beta.${a.length - i}`
-)
-
 interface ScrollableAreaProps {
     roles: IRole[]
 }

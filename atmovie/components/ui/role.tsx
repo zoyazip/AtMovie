@@ -9,11 +9,9 @@ interface RoleProps {
 
 export const Role = ({name, text, color, direction}: RoleProps) => {
 
-    
-
     return (
         <>
-            <div className={`flex items-start py-4`}>
+            <div className={`flex items-start py-2`}>
                 <div className={`role`} >
                     <RoleUser name={name} direction={direction} color={color}/>
                 </div>

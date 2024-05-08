@@ -131,8 +131,6 @@ export const VideoProgress = ({progress, scrub, videoDuration}: VideoProgressPro
       return progress >= replica.percentage[0] && progress <= replica.percentage[1] ? 'opacity-100' : 'opacity-40'
     }
 
-    console.log(`Width: ${replicas[1].width}`)
-    console.log(`Margin: ${replicas[1].margin}`)
     return (
         <div className='w-full relative'>
             <input className={`timeline w-full `} type="range" id="vol" name="vol" value={progress} min="0" max="98" step="0.001" onChange={(e) => {scrub(e.currentTarget.value)}} />

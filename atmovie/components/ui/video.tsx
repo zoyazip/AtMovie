@@ -57,11 +57,12 @@ export const Video = () => {
     return (
         <div className=''>
             <div className="relative">
-                <video ref={videoRef} width={"100%"} height={"100%"} playsInline>
+                <video ref={videoRef} width={"100%"} height={"100%"} playsInline >
                     <source src='/video/pulp.mp4' type='video/mp4'/>
+                    <track kind="captions" src="/video/pulp.vtt" srcLang="en" default />
                 </video>
                 <div className='video-text absolute w-full h-8 bottom-14 px-4 md:px-6 md:bottom-20'>
-                    <VideoText />
+                    <VideoText currentTime={videoRef.current?.currentTime || 0}/>
                 </div>
                 <div className="controls absolute w-full flex items-center bottom-4 px-4 md:px-6 md:bottom-8">
                     <div className={`w-[${buttonSizes}px] h-[${buttonSizes}px] play flex items-center mr-4 md:mr-0`} onClick={toggleAction}>
