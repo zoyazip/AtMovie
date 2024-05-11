@@ -10,17 +10,23 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-export function SelectScrollable() {
+interface MovieSelectorProps {
+  films: IFilm[]
+}
+
+export const SelectScrollable = ({films}: MovieSelectorProps) => {
   return (
     <Select>
       <SelectTrigger className="w-full">
         <SelectValue placeholder="Select movie" />
       </SelectTrigger>
       <SelectContent>
-        <SelectGroup>
-          <SelectLabel>Thriller</SelectLabel>
-          <SelectItem value="pulp fiction">Pulp Fiction</SelectItem>
-        </SelectGroup>
+        {films.map((film, id) => (
+          <SelectGroup key={id}>
+            <SelectLabel>{film.genre}</SelectLabel>
+            <SelectItem value={film.name}>{film.name}</SelectItem>
+          </SelectGroup>
+        ))}
       </SelectContent>
     </Select>
   )

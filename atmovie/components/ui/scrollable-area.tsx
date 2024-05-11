@@ -4,18 +4,18 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Role } from './role'
 
 interface ScrollableAreaProps {
-    roles: IRole[]
+    film: IFilm
 }
 
-export function ScrollableArea({roles}: ScrollableAreaProps) {
+export function ScrollableArea({film}: ScrollableAreaProps) {
   return (
     <ScrollArea className="h-full w-full rounded-md border">
       <div className="p-4">
         <h4 className="mb-4 text-sm font-medium leading-none">Roles</h4>
-        {roles.map((role) => (
+        {film.fullReplicaText.map((role) => (
           <>
             <div key={role.id} className="text-sm">
-              <Role name={role.name} text={role.text} color={role.color} direction={"flex-row"} />
+              <Role name={film.cast[role.castId].name} text={role.fullRelicaText} color={film.cast[role.castId].color} direction={"flex-row"} />
             </div>
           </>
         ))}

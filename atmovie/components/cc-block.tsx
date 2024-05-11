@@ -1,14 +1,13 @@
 import { ScrollableArea } from './ui/scrollable-area'
 
 interface CCBlockProps {
-    roles: IRole[]
+    film: IFilm
 }
 
-export const CCBlock = ({roles}: CCBlockProps) => {
-
+export const CCBlock = ({ film }: CCBlockProps) => {
     return (
         <>
-            <ScrollableArea roles={roles}/>
+            <ScrollableArea film={film}/>
         </>
     )
 }

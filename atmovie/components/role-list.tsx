@@ -11,10 +11,10 @@ import {
 } from "@/components/ui/select"
 
 interface RoleListProps {
-    roles: IRoleSimple[]
+    cast: Cast[]
 }
 
-export const RoleList = ({roles}: RoleListProps) => {
+export const RoleList = ({cast}: RoleListProps) => {
     return (
         <div className="roleList my-4">
         <Select>
@@ -23,9 +23,9 @@ export const RoleList = ({roles}: RoleListProps) => {
             </SelectTrigger>
             <SelectContent>
                 <SelectGroup>
-                    {roles.map((role) => (
+                    {cast.map((role) => (
                         <>
-                            <div key={role.roleId} className="text-sm">
+                            <div key={role.id} className="text-sm">
                                 <SelectItem value={role.name}>
                                     <Role name={role.name} direction={"flex-row"} color={role.color}/>
                                 </SelectItem>
