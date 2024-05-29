@@ -1,5 +1,6 @@
 interface IFilm {
-    id: number
+    id: number,
+    url: string,
     name: string,
     genre: string,
     cast: Cast[]
