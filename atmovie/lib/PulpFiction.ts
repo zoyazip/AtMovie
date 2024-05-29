@@ -1,5 +1,6 @@
 export const PulpFiction: IFilm = {
     id: 1,
+    url: "/video/pulp.mp4",
     name: "Pulp Fiction",
     genre: "Thriller",
     cast: [
@@ -206,9 +207,9 @@ export const PulpFiction: IFilm = {
             ],
             progressBarData: {
                 id: 7,
-                width: {startAt: 43, endAt: 44},
-                margin: [{startAt: 41, endAt: 43}, {startAt: 0, endAt: 41}],
-                percentage: [43, 44]
+                width: {startAt: 42, endAt: 43},
+                margin: [{startAt: 41, endAt: 42}, {startAt: 0, endAt: 41}],
+                percentage: [42, 43]
             }
         },
         {
@@ -218,12 +219,12 @@ export const PulpFiction: IFilm = {
             captions: [
                 {
                     phrase: "Zed's dead, baby.",
-                    startsAt: 43,
-                    endsAt: 44
+                    startsAt: 44,
+                    endsAt: 45
                 },
                 {
                     phrase: "Get in. Zed's dead.",
-                    startsAt: 44,
+                    startsAt: 45,
                     endsAt: 47
                 },
             ],
@@ -247,9 +248,9 @@ export const PulpFiction: IFilm = {
             ],
             progressBarData: {
                 id: 9,
-                width: {startAt: 48, endAt: 49},
+                width: {startAt: 47, endAt: 48},
                 margin: [{startAt: 47, endAt: 48}, {startAt: 0, endAt: 47}],
-                percentage: [48, 49]
+                percentage: [47, 48]
             }
         },
         {
@@ -293,9 +294,9 @@ export const PulpFiction: IFilm = {
             ],
             progressBarData: {
                 id: 11,
-                width: {startAt: 53, endAt: 55},
-                margin: [{startAt: 52, endAt: 53}, {startAt: 0, endAt: 52}],
-                percentage: [53, 55]
+                width: {startAt: 53, endAt: 54},
+                margin: [{startAt: 53, endAt: 54}, {startAt: 0, endAt: 53}],
+                percentage: [53, 54]
             }
         },
         {
@@ -311,9 +312,9 @@ export const PulpFiction: IFilm = {
             ],
             progressBarData: {
                 id: 12,
-                width: {startAt: 55, endAt: 56},
-                margin: [{startAt: 55, endAt: 55}, {startAt: 0, endAt: 55}],
-                percentage: [55, 56]
+                width: {startAt: 54, endAt: 55},
+                margin: [{startAt: 54, endAt: 55}, {startAt: 0, endAt: 55}],
+                percentage: [54, 55]
             }
         },
         {
@@ -323,25 +324,25 @@ export const PulpFiction: IFilm = {
             captions: [
                 {
                     phrase: "Correctomundo. And that's",
-                    startsAt: 55,
-                    endsAt: 56
-                },
-                {
-                    phrase: "what we're going to be.",
                     startsAt: 56,
                     endsAt: 57
                 },
                 {
-                    phrase: "We're going to be cool.",
+                    phrase: "what we're going to be.",
                     startsAt: 57,
+                    endsAt: 58
+                },
+                {
+                    phrase: "We're going to be cool.",
+                    startsAt: 58,
                     endsAt: 60
                 }
             ],
             progressBarData: {
                 id: 14,
-                width: {startAt: 56, endAt: 59},
+                width: {startAt: 56, endAt: 60},
                 margin: [{startAt: 56, endAt: 56}, {startAt: 0, endAt: 56}],
-                percentage: [56, 59]
+                percentage: [56, 60]
             }
         }
     ]

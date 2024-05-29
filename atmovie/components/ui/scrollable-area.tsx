@@ -13,11 +13,11 @@ export function ScrollableArea({film}: ScrollableAreaProps) {
       <div className="p-4">
         <h4 className="mb-4 text-sm font-medium leading-none">Roles</h4>
         {film.fullReplicaText.map((role) => (
-          <>
+
             <div key={role.id} className="text-sm">
-              <Role name={film.cast[role.castId].name} text={role.fullRelicaText} color={film.cast[role.castId].color} direction={"flex-row"} />
+              <Role key={role.id} name={film.cast[role.castId].name} text={role.fullRelicaText} color={film.cast[role.castId].color} direction={"flex-row"} />
             </div>
-          </>
+
         ))}
       </div>
     </ScrollArea>
